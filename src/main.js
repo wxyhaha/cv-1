@@ -33,7 +33,7 @@ let string = `/*你好，我是Joel
     top:0;
     left:50%;
     transform:translateX(-50%);
-    background:#000;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
     border-radius:50%;
 }
 #div1::after{
@@ -42,7 +42,7 @@ let string = `/*你好，我是Joel
     bottom:0;
     left:50%;
     transform:translateX(-50%);
-    background:#fff;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%,rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
     border-radius:50%;
 }
 `;
